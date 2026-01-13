@@ -6,8 +6,8 @@ from collections import Counter
 
 # --- CONFIGURATION ---
 MODEL_PATH = "kmeans_model.pkl"
-EMBEDDINGS_CSV = "data/music_embeds.csv"
-EMBEDDING_COL_PREFIX = "dim_"
+EMBEDDINGS_CSV = "data/music_pca_data.csv"
+EMBEDDING_COL_PREFIX = "PC"
 
 # --- PRESET COHORT DEFINITIONS ---
 COHORT_SONGS = {
